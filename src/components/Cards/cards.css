@@ -1,0 +1,38 @@
+.cards {
+    margin: 0 0 50px 0;
+}
+
+.cards p {
+    margin: 0;
+}
+
+.cards .cards-img {
+    height: 350px;
+    margin: 15px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cards .cards-img img {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 15px 0;
+    border-radius: 10px;
+}
+
+.cards button {
+    width: auto;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    margin: 30px 5px 10px 5px;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.cards button:hover {
+    border-color: #0e830a;
+    background: #0e830a;
+}
